@@ -9,7 +9,9 @@ build_image:
   stage: deploy
   before_script:
     - docker info
+    - cp config.py.dist config.py
     - docker build -terrbot ./
     - pip install awscli
   script:
-    - aws s3 cp ./ s3://yourbucket/ --recursive --exclude "*" --include ""
+    - docker tag jon-knows-rasa electricmaxxx/jon-knows-rasa
+    - registry.gitlab.com/electricmaxxx/jon-knows-rasa
