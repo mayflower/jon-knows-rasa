@@ -8,354 +8,3299 @@
       {"text": "cheers", "intent": "greet", "entities": []},
       {"text": "hey", "intent": "greet", "entities": []},
       {"text": "Hola", "intent": "greet", "entities": []},
+      {"text": "What's up", "intent": "greet", "entities": []},
+      {"text": "hallo", "intent": "greet", "entities": []},
+      {"text": "huhu", "intent": "greet", "entities": []},
       {
-        "text": "I want cheese on my Pizza",
-        "intent": "order_pizza",
+        "text": "Wer kennt sich mit Symfony aus?",
+        "intent": "who_knows",
         "entities": [
-          {"start": 7, "end": 13, "value": "cheese", "entity": "toppings"}
+          {"start": 19, "end": 26, "value": "Symfony", "entity": "topic"}
         ]
       },
       {
-        "text": "I want sausage on my Pizza",
-        "intent": "order_pizza",
+        "text": "Wer kennt sich mit Django aus?",
+        "intent": "who_knows",
         "entities": [
-          {"start": 7, "end": 14, "value": "sausage", "entity": "toppings"}
+          {"start": 19, "end": 25, "value": "Django", "entity": "topic"}
         ]
       },
       {
-        "text": "I want onions on my Pizza",
-        "intent": "order_pizza",
+        "text": "Wer kennt sich mit Spring aus?",
+        "intent": "who_knows",
         "entities": [
-          {"start": 7, "end": 13, "value": "onions", "entity": "toppings"}
+          {"start": 19, "end": 25, "value": "Spring", "entity": "topic"}
         ]
       },
       {
-        "text": "I want olives on my Pizza",
-        "intent": "order_pizza",
+        "text": "Wer kennt sich mit .net Core aus?",
+        "intent": "who_knows",
         "entities": [
-          {"start": 7, "end": 13, "value": "olives", "entity": "toppings"}
+          {"start": 19, "end": 28, "value": ".net Core", "entity": "topic"}
         ]
       },
       {
-        "text": "I want a large pizza with cheese",
-        "intent": "order_pizza",
+        "text": "Wer kennt sich mit Golang aus?",
+        "intent": "who_knows",
         "entities": [
-          {"start": 9, "end": 14, "value": "large", "entity": "size"},
-          {"start": 26, "end": 32, "value": "cheese", "entity": "toppings"}
+          {"start": 19, "end": 25, "value": "Golang", "entity": "topic"}
         ]
       },
       {
-        "text": "I want a large pizza with sausage",
-        "intent": "order_pizza",
+        "text": "Wer kennt sich mit Scala aus?",
+        "intent": "who_knows",
         "entities": [
-          {"start": 9, "end": 14, "value": "large", "entity": "size"},
-          {"start": 26, "end": 33, "value": "sausage", "entity": "toppings"}
+          {"start": 19, "end": 24, "value": "Scala", "entity": "topic"}
         ]
       },
       {
-        "text": "I want a large pizza with onions",
-        "intent": "order_pizza",
+        "text": "Wer kennt sich mit Ansible aus?",
+        "intent": "who_knows",
         "entities": [
-          {"start": 9, "end": 14, "value": "large", "entity": "size"},
-          {"start": 26, "end": 32, "value": "onions", "entity": "toppings"}
+          {"start": 19, "end": 26, "value": "Ansible", "entity": "topic"}
         ]
       },
       {
-        "text": "I want a large pizza with olives",
-        "intent": "order_pizza",
+        "text": "Wer kennt sich mit React aus?",
+        "intent": "who_knows",
         "entities": [
-          {"start": 9, "end": 14, "value": "large", "entity": "size"},
-          {"start": 26, "end": 32, "value": "olives", "entity": "toppings"}
+          {"start": 19, "end": 24, "value": "React", "entity": "topic"}
         ]
       },
       {
-        "text": "I want a small pizza with cheese",
-        "intent": "order_pizza",
+        "text": "Wer kennt sich mit PHP aus?",
+        "intent": "who_knows",
         "entities": [
-          {"start": 9, "end": 14, "value": "small", "entity": "size"},
-          {"start": 26, "end": 32, "value": "cheese", "entity": "toppings"}
+          {"start": 19, "end": 22, "value": "PHP", "entity": "topic"}
         ]
       },
       {
-        "text": "I want a small pizza with sausage",
-        "intent": "order_pizza",
+        "text": "Wer kennt sich mit React Native aus?",
+        "intent": "who_knows",
         "entities": [
-          {"start": 9, "end": 14, "value": "small", "entity": "size"},
-          {"start": 26, "end": 33, "value": "sausage", "entity": "toppings"}
+          {"start": 19, "end": 31, "value": "React Native", "entity": "topic"}
         ]
       },
       {
-        "text": "I want a small pizza with onions",
-        "intent": "order_pizza",
+        "text": "Wer kennt sich mit Ionic2 aus?",
+        "intent": "who_knows",
         "entities": [
-          {"start": 9, "end": 14, "value": "small", "entity": "size"},
-          {"start": 26, "end": 32, "value": "onions", "entity": "toppings"}
+          {"start": 19, "end": 25, "value": "Ionic2", "entity": "topic"}
         ]
       },
       {
-        "text": "I want a small pizza with olives",
-        "intent": "order_pizza",
+        "text": "Wer kennt sich mit Angular aus?",
+        "intent": "who_knows",
         "entities": [
-          {"start": 9, "end": 14, "value": "small", "entity": "size"},
-          {"start": 26, "end": 32, "value": "olives", "entity": "toppings"}
+          {"start": 19, "end": 26, "value": "Angular", "entity": "topic"}
         ]
       },
       {
-        "text": "I want a tyni pizza with cheese",
-        "intent": "order_pizza",
+        "text": "Wer kennt sich mit ELK aus?",
+        "intent": "who_knows",
         "entities": [
-          {"start": 9, "end": 13, "value": "tyni", "entity": "size"},
-          {"start": 25, "end": 31, "value": "cheese", "entity": "toppings"}
+          {"start": 19, "end": 22, "value": "ELK", "entity": "topic"}
         ]
       },
       {
-        "text": "I want a tyni pizza with sausage",
-        "intent": "order_pizza",
+        "text": "Wer kennt sich mit Greylog aus?",
+        "intent": "who_knows",
         "entities": [
-          {"start": 9, "end": 13, "value": "tyni", "entity": "size"},
-          {"start": 25, "end": 32, "value": "sausage", "entity": "toppings"}
+          {"start": 19, "end": 26, "value": "Greylog", "entity": "topic"}
         ]
       },
       {
-        "text": "I want a tyni pizza with onions",
-        "intent": "order_pizza",
+        "text": "Wer kennt sich mit AWS aus?",
+        "intent": "who_knows",
         "entities": [
-          {"start": 9, "end": 13, "value": "tyni", "entity": "size"},
-          {"start": 25, "end": 31, "value": "onions", "entity": "toppings"}
+          {"start": 19, "end": 22, "value": "AWS", "entity": "topic"}
         ]
       },
       {
-        "text": "I want a tyni pizza with olives",
-        "intent": "order_pizza",
+        "text": "Wer kennt sich mit Azure aus?",
+        "intent": "who_knows",
         "entities": [
-          {"start": 9, "end": 13, "value": "tyni", "entity": "size"},
-          {"start": 25, "end": 31, "value": "olives", "entity": "toppings"}
+          {"start": 19, "end": 24, "value": "Azure", "entity": "topic"}
         ]
       },
       {
-        "text": "I want a big pizza with cheese",
-        "intent": "order_pizza",
+        "text": "Wer kennt sich mit Profitbricks aus?",
+        "intent": "who_knows",
         "entities": [
-          {"start": 9, "end": 12, "value": "big", "entity": "size"},
-          {"start": 24, "end": 30, "value": "cheese", "entity": "toppings"}
+          {"start": 19, "end": 31, "value": "Profitbricks", "entity": "topic"}
         ]
       },
       {
-        "text": "I want a big pizza with sausage",
-        "intent": "order_pizza",
+        "text": "Wer kennt sich mit GCE aus?",
+        "intent": "who_knows",
         "entities": [
-          {"start": 9, "end": 12, "value": "big", "entity": "size"},
-          {"start": 24, "end": 31, "value": "sausage", "entity": "toppings"}
+          {"start": 19, "end": 22, "value": "GCE", "entity": "topic"}
         ]
       },
       {
-        "text": "I want a big pizza with onions",
-        "intent": "order_pizza",
+        "text": "Wer kennt sich mit ExtJS aus?",
+        "intent": "who_knows",
         "entities": [
-          {"start": 9, "end": 12, "value": "big", "entity": "size"},
-          {"start": 24, "end": 30, "value": "onions", "entity": "toppings"}
+          {"start": 19, "end": 24, "value": "ExtJS", "entity": "topic"}
         ]
       },
       {
-        "text": "I want a big pizza with olives",
-        "intent": "order_pizza",
+        "text": "Wer kennt sich mit AngularJS aus?",
+        "intent": "who_knows",
         "entities": [
-          {"start": 9, "end": 12, "value": "big", "entity": "size"},
-          {"start": 24, "end": 30, "value": "olives", "entity": "toppings"}
+          {"start": 19, "end": 28, "value": "AngularJS", "entity": "topic"}
         ]
       },
       {
-        "text": "I want a awesome pizza with cheese",
-        "intent": "order_pizza",
+        "text": "Wer kennt sich mit Zend Framework aus?",
+        "intent": "who_knows",
         "entities": [
-          {"start": 9, "end": 16, "value": "awesome", "entity": "size"},
-          {"start": 28, "end": 34, "value": "cheese", "entity": "toppings"}
+          {"start": 19, "end": 33, "value": "Zend Framework", "entity": "topic"}
         ]
       },
       {
-        "text": "I want a awesome pizza with sausage",
-        "intent": "order_pizza",
+        "text": "Wer kennt sich mit Symfony aus?",
+        "intent": "who_knows",
         "entities": [
-          {"start": 9, "end": 16, "value": "awesome", "entity": "size"},
-          {"start": 28, "end": 35, "value": "sausage", "entity": "toppings"}
+          {"start": 19, "end": 26, "value": "Symfony", "entity": "topic"}
         ]
       },
       {
-        "text": "I want a awesome pizza with onions",
-        "intent": "order_pizza",
+        "text": "Wer kennt sich mit Docker aus?",
+        "intent": "who_knows",
         "entities": [
-          {"start": 9, "end": 16, "value": "awesome", "entity": "size"},
-          {"start": 28, "end": 34, "value": "onions", "entity": "toppings"}
+          {"start": 19, "end": 25, "value": "Docker", "entity": "topic"}
         ]
       },
       {
-        "text": "I want a awesome pizza with olives",
-        "intent": "order_pizza",
+        "text": "Wer kennt sich mit Swift aus?",
+        "intent": "who_knows",
         "entities": [
-          {"start": 9, "end": 16, "value": "awesome", "entity": "size"},
-          {"start": 28, "end": 34, "value": "olives", "entity": "toppings"}
-        ]
-      },
-      {"text": "I am hungry", "intent": "order_pizza", "entities": []},
-      {"text": "Pizza", "intent": "order_pizza", "entities": []},
-      {"text": "bye", "intent": "goodby", "entities": []},
-      {"text": "thx", "intent": "goodby", "entities": []},
-      {"text": "fuck of", "intent": "goodby", "entities": []},
-      {"text": "hf", "intent": "goodby", "entities": []},
-      {
-        "text": "Hi, i can not come 1 days",
-        "intent": "report_illness",
-        "entities": [
-          {"start": 19, "end": 20, "value": "1", "entity": "duration"}
+          {"start": 19, "end": 24, "value": "Swift", "entity": "topic"}
         ]
       },
       {
-        "text": "Hi, i can not come 2 days",
-        "intent": "report_illness",
+        "text": "Wer kennt sich mit Android aus?",
+        "intent": "who_knows",
         "entities": [
-          {"start": 19, "end": 20, "value": "2", "entity": "duration"}
+          {"start": 19, "end": 26, "value": "Android", "entity": "topic"}
         ]
       },
       {
-        "text": "Hi, i can not come 3 days",
-        "intent": "report_illness",
+        "text": "Wer kennt sich mit Java aus?",
+        "intent": "who_knows",
         "entities": [
-          {"start": 19, "end": 20, "value": "3", "entity": "duration"}
+          {"start": 19, "end": 23, "value": "Java", "entity": "topic"}
         ]
       },
       {
-        "text": "Hi, i can not come 4 days",
-        "intent": "report_illness",
+        "text": "Wer kennt sich mit Puppet aus?",
+        "intent": "who_knows",
         "entities": [
-          {"start": 19, "end": 20, "value": "4", "entity": "duration"}
+          {"start": 19, "end": 25, "value": "Puppet", "entity": "topic"}
         ]
       },
       {
-        "text": "Hi, i can not come 5 days",
-        "intent": "report_illness",
+        "text": "Wer kennt sich mit .net aus?",
+        "intent": "who_knows",
         "entities": [
-          {"start": 19, "end": 20, "value": "5", "entity": "duration"}
+          {"start": 19, "end": 23, "value": ".net", "entity": "topic"}
         ]
       },
       {
-        "text": "I have to stay home until next two days",
-        "intent": "report_illness",
+        "text": "Wer kennt sich mit Python aus?",
+        "intent": "who_knows",
         "entities": [
-          {"start": 26, "end": 39, "value": "next two days", "entity": "last"}
+          {"start": 19, "end": 25, "value": "Python", "entity": "topic"}
         ]
       },
       {
-        "text": "I have to stay home until end of week",
-        "intent": "report_illness",
+        "text": "Wer kennt sich mit elm aus?",
+        "intent": "who_knows",
         "entities": [
-          {"start": 26, "end": 37, "value": "end of week", "entity": "last"}
+          {"start": 19, "end": 22, "value": "elm", "entity": "topic"}
         ]
       },
       {
-        "text": "I have to stay home until 4 days",
-        "intent": "report_illness",
+        "text": "Wer kennt sich mit Kafka aus?",
+        "intent": "who_knows",
         "entities": [
-          {"start": 26, "end": 32, "value": "4 days", "entity": "last"}
+          {"start": 19, "end": 24, "value": "Kafka", "entity": "topic"}
         ]
       },
       {
-        "text": "My doctor advised to stay home next two days",
-        "intent": "report_illness",
+        "text": "Wer kennt sich mit Redux aus?",
+        "intent": "who_knows",
         "entities": [
-          {"start": 31, "end": 44, "value": "next two days", "entity": "last"}
+          {"start": 19, "end": 24, "value": "Redux", "entity": "topic"}
         ]
       },
       {
-        "text": "My doctor advised to stay home end of week",
-        "intent": "report_illness",
+        "text": "Wer kennt sich mit GraphQL aus?",
+        "intent": "who_knows",
         "entities": [
-          {"start": 31, "end": 42, "value": "end of week", "entity": "last"}
+          {"start": 19, "end": 26, "value": "GraphQL", "entity": "topic"}
         ]
       },
       {
-        "text": "My doctor advised to stay home 4 days",
-        "intent": "report_illness",
+        "text": "Wer kennt sich mit NixOS aus?",
+        "intent": "who_knows",
         "entities": [
-          {"start": 31, "end": 37, "value": "4 days", "entity": "last"}
+          {"start": 19, "end": 24, "value": "NixOS", "entity": "topic"}
         ]
       },
       {
-        "text": "I am ill from from to next two days",
-        "intent": "report_illness",
+        "text": "Wer kennt sich mit yarn aus?",
+        "intent": "who_knows",
         "entities": [
-          {"start": 14, "end": 18, "value": "from", "entity": "first"},
-          {"start": 22, "end": 35, "value": "next two days", "entity": "last"}
+          {"start": 19, "end": 23, "value": "yarn", "entity": "topic"}
         ]
       },
       {
-        "text": "I am ill from from to end of week",
-        "intent": "report_illness",
+        "text": "Wer kennt sich mit Amazon Lambda aus?",
+        "intent": "who_knows",
         "entities": [
-          {"start": 14, "end": 18, "value": "from", "entity": "first"},
-          {"start": 22, "end": 33, "value": "end of week", "entity": "last"}
+          {"start": 19, "end": 32, "value": "Amazon Lambda", "entity": "topic"}
         ]
       },
       {
-        "text": "I am ill from from to 4 days",
-        "intent": "report_illness",
+        "text": "Wer kennt sich mit Aka aus?",
+        "intent": "who_knows",
         "entities": [
-          {"start": 14, "end": 18, "value": "from", "entity": "first"},
-          {"start": 22, "end": 28, "value": "4 days", "entity": "last"}
+          {"start": 19, "end": 22, "value": "Aka", "entity": "topic"}
         ]
       },
       {
-        "text": "I am ill from start to next two days",
-        "intent": "report_illness",
+        "text": "Wer kennt sich mit R aus?",
+        "intent": "who_knows",
+        "entities": [{"start": 19, "end": 20, "value": "R", "entity": "topic"}]
+      },
+      {
+        "text": "Wer kennt sich mit Tensorflow aus?",
+        "intent": "who_knows",
         "entities": [
-          {"start": 14, "end": 19, "value": "start", "entity": "first"},
-          {"start": 23, "end": 36, "value": "next two days", "entity": "last"}
+          {"start": 19, "end": 29, "value": "Tensorflow", "entity": "topic"}
         ]
       },
       {
-        "text": "I am ill from start to end of week",
-        "intent": "report_illness",
+        "text": "Wer kennt sich mit Torch aus?",
+        "intent": "who_knows",
         "entities": [
-          {"start": 14, "end": 19, "value": "start", "entity": "first"},
-          {"start": 23, "end": 34, "value": "end of week", "entity": "last"}
+          {"start": 19, "end": 24, "value": "Torch", "entity": "topic"}
         ]
       },
       {
-        "text": "I am ill from start to 4 days",
-        "intent": "report_illness",
+        "text": "Wer kennt sich mit Kotlin aus?",
+        "intent": "who_knows",
         "entities": [
-          {"start": 14, "end": 19, "value": "start", "entity": "first"},
-          {"start": 23, "end": 29, "value": "4 days", "entity": "last"}
+          {"start": 19, "end": 25, "value": "Kotlin", "entity": "topic"}
         ]
       },
       {
-        "text": "I am ill from today to next two days",
-        "intent": "report_illness",
+        "text": "Wer kennt sich mit play aus?",
+        "intent": "who_knows",
         "entities": [
-          {"start": 14, "end": 19, "value": "today", "entity": "first"},
-          {"start": 23, "end": 36, "value": "next two days", "entity": "last"}
+          {"start": 19, "end": 23, "value": "play", "entity": "topic"}
         ]
       },
       {
-        "text": "I am ill from today to end of week",
-        "intent": "report_illness",
+        "text": "Wer kennt sich mit Spring Boot aus?",
+        "intent": "who_knows",
         "entities": [
-          {"start": 14, "end": 19, "value": "today", "entity": "first"},
-          {"start": 23, "end": 34, "value": "end of week", "entity": "last"}
+          {"start": 19, "end": 30, "value": "Spring Boot", "entity": "topic"}
         ]
       },
       {
-        "text": "I am ill from today to 4 days",
-        "intent": "report_illness",
+        "text": "Wer kennt sich mit Kubernets aus?",
+        "intent": "who_knows",
         "entities": [
-          {"start": 14, "end": 19, "value": "today", "entity": "first"},
-          {"start": 23, "end": 29, "value": "4 days", "entity": "last"}
+          {"start": 19, "end": 28, "value": "Kubernets", "entity": "topic"}
         ]
       },
-      {"text": "I am ill", "intent": "report_illness", "entities": []},
       {
-        "text": "I have problems to come",
-        "intent": "report_illness",
-        "entities": []
+        "text": "Wer kennt sich mit Elixir aus?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 19, "end": 25, "value": "Elixir", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Wer kennt sich mit Rust aus?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 19, "end": 23, "value": "Rust", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Wer kennt sich mit Consul aus?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 19, "end": 25, "value": "Consul", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Wer kennt sich mit etcd aus?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 19, "end": 23, "value": "etcd", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Wer kennt sich mit Hasicorp aus?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 19, "end": 27, "value": "Hasicorp", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Wer kennt sich mit Vault aus?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 19, "end": 24, "value": "Vault", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Wer kennt sich mit treafik aus?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 19, "end": 26, "value": "treafik", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Wer kennt sich mit Postgr aus?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 19, "end": 25, "value": "Postgr", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Wer weiß etwas über Symfony gemacht?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 20, "end": 27, "value": "Symfony", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Wer weiß etwas über Django gemacht?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 20, "end": 26, "value": "Django", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Wer weiß etwas über Spring gemacht?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 20, "end": 26, "value": "Spring", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Wer weiß etwas über .net Core gemacht?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 20, "end": 29, "value": ".net Core", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Wer weiß etwas über Golang gemacht?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 20, "end": 26, "value": "Golang", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Wer weiß etwas über Scala gemacht?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 20, "end": 25, "value": "Scala", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Wer weiß etwas über Ansible gemacht?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 20, "end": 27, "value": "Ansible", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Wer weiß etwas über React gemacht?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 20, "end": 25, "value": "React", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Wer weiß etwas über PHP gemacht?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 20, "end": 23, "value": "PHP", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Wer weiß etwas über React Native gemacht?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 20, "end": 32, "value": "React Native", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Wer weiß etwas über Ionic2 gemacht?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 20, "end": 26, "value": "Ionic2", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Wer weiß etwas über Angular gemacht?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 20, "end": 27, "value": "Angular", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Wer weiß etwas über ELK gemacht?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 20, "end": 23, "value": "ELK", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Wer weiß etwas über Greylog gemacht?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 20, "end": 27, "value": "Greylog", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Wer weiß etwas über AWS gemacht?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 20, "end": 23, "value": "AWS", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Wer weiß etwas über Azure gemacht?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 20, "end": 25, "value": "Azure", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Wer weiß etwas über Profitbricks gemacht?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 20, "end": 32, "value": "Profitbricks", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Wer weiß etwas über GCE gemacht?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 20, "end": 23, "value": "GCE", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Wer weiß etwas über ExtJS gemacht?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 20, "end": 25, "value": "ExtJS", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Wer weiß etwas über AngularJS gemacht?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 20, "end": 29, "value": "AngularJS", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Wer weiß etwas über Zend Framework gemacht?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 20, "end": 34, "value": "Zend Framework", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Wer weiß etwas über Symfony gemacht?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 20, "end": 27, "value": "Symfony", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Wer weiß etwas über Docker gemacht?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 20, "end": 26, "value": "Docker", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Wer weiß etwas über Swift gemacht?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 20, "end": 25, "value": "Swift", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Wer weiß etwas über Android gemacht?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 20, "end": 27, "value": "Android", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Wer weiß etwas über Java gemacht?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 20, "end": 24, "value": "Java", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Wer weiß etwas über Puppet gemacht?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 20, "end": 26, "value": "Puppet", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Wer weiß etwas über .net gemacht?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 20, "end": 24, "value": ".net", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Wer weiß etwas über Python gemacht?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 20, "end": 26, "value": "Python", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Wer weiß etwas über elm gemacht?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 20, "end": 23, "value": "elm", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Wer weiß etwas über Kafka gemacht?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 20, "end": 25, "value": "Kafka", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Wer weiß etwas über Redux gemacht?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 20, "end": 25, "value": "Redux", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Wer weiß etwas über GraphQL gemacht?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 20, "end": 27, "value": "GraphQL", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Wer weiß etwas über NixOS gemacht?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 20, "end": 25, "value": "NixOS", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Wer weiß etwas über yarn gemacht?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 20, "end": 24, "value": "yarn", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Wer weiß etwas über Amazon Lambda gemacht?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 20, "end": 33, "value": "Amazon Lambda", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Wer weiß etwas über Aka gemacht?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 20, "end": 23, "value": "Aka", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Wer weiß etwas über R gemacht?",
+        "intent": "who_knows",
+        "entities": [{"start": 20, "end": 21, "value": "R", "entity": "topic"}]
+      },
+      {
+        "text": "Wer weiß etwas über Tensorflow gemacht?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 20, "end": 30, "value": "Tensorflow", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Wer weiß etwas über Torch gemacht?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 20, "end": 25, "value": "Torch", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Wer weiß etwas über Kotlin gemacht?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 20, "end": 26, "value": "Kotlin", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Wer weiß etwas über play gemacht?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 20, "end": 24, "value": "play", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Wer weiß etwas über Spring Boot gemacht?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 20, "end": 31, "value": "Spring Boot", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Wer weiß etwas über Kubernets gemacht?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 20, "end": 29, "value": "Kubernets", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Wer weiß etwas über Elixir gemacht?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 20, "end": 26, "value": "Elixir", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Wer weiß etwas über Rust gemacht?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 20, "end": 24, "value": "Rust", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Wer weiß etwas über Consul gemacht?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 20, "end": 26, "value": "Consul", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Wer weiß etwas über etcd gemacht?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 20, "end": 24, "value": "etcd", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Wer weiß etwas über Hasicorp gemacht?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 20, "end": 28, "value": "Hasicorp", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Wer weiß etwas über Vault gemacht?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 20, "end": 25, "value": "Vault", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Wer weiß etwas über treafik gemacht?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 20, "end": 27, "value": "treafik", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Wer weiß etwas über Postgr gemacht?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 20, "end": 26, "value": "Postgr", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Welche Skills haben wir in Languages & Frameworks ?",
+        "intent": "who_knows",
+        "entities": [
+          {
+            "start": 27,
+            "end": 49,
+            "value": "Languages & Frameworks",
+            "entity": "category"
+          }
+        ]
+      },
+      {
+        "text": "Welche Skills haben wir in Tools ?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 27, "end": 32, "value": "Tools", "entity": "category"}
+        ]
+      },
+      {
+        "text": "Welche Skills haben wir in Techniques ?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 27, "end": 37, "value": "Techniques", "entity": "category"}
+        ]
+      },
+      {
+        "text": "Welche Skills haben wir in Platforms ?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 27, "end": 36, "value": "Platforms", "entity": "category"}
+        ]
+      },
+      {
+        "text": "Warum sagst du nicht, dass du Symfony kannst?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 30, "end": 37, "value": "Symfony", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum sagst du nicht, dass du Django kannst?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 30, "end": 36, "value": "Django", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum sagst du nicht, dass du Spring kannst?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 30, "end": 36, "value": "Spring", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum sagst du nicht, dass du .net Core kannst?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 30, "end": 39, "value": ".net Core", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum sagst du nicht, dass du Golang kannst?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 30, "end": 36, "value": "Golang", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum sagst du nicht, dass du Scala kannst?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 30, "end": 35, "value": "Scala", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum sagst du nicht, dass du Ansible kannst?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 30, "end": 37, "value": "Ansible", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum sagst du nicht, dass du React kannst?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 30, "end": 35, "value": "React", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum sagst du nicht, dass du PHP kannst?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 30, "end": 33, "value": "PHP", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum sagst du nicht, dass du React Native kannst?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 30, "end": 42, "value": "React Native", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum sagst du nicht, dass du Ionic2 kannst?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 30, "end": 36, "value": "Ionic2", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum sagst du nicht, dass du Angular kannst?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 30, "end": 37, "value": "Angular", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum sagst du nicht, dass du ELK kannst?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 30, "end": 33, "value": "ELK", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum sagst du nicht, dass du Greylog kannst?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 30, "end": 37, "value": "Greylog", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum sagst du nicht, dass du AWS kannst?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 30, "end": 33, "value": "AWS", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum sagst du nicht, dass du Azure kannst?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 30, "end": 35, "value": "Azure", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum sagst du nicht, dass du Profitbricks kannst?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 30, "end": 42, "value": "Profitbricks", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum sagst du nicht, dass du GCE kannst?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 30, "end": 33, "value": "GCE", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum sagst du nicht, dass du ExtJS kannst?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 30, "end": 35, "value": "ExtJS", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum sagst du nicht, dass du AngularJS kannst?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 30, "end": 39, "value": "AngularJS", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum sagst du nicht, dass du Zend Framework kannst?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 30, "end": 44, "value": "Zend Framework", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum sagst du nicht, dass du Symfony kannst?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 30, "end": 37, "value": "Symfony", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum sagst du nicht, dass du Docker kannst?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 30, "end": 36, "value": "Docker", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum sagst du nicht, dass du Swift kannst?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 30, "end": 35, "value": "Swift", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum sagst du nicht, dass du Android kannst?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 30, "end": 37, "value": "Android", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum sagst du nicht, dass du Java kannst?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 30, "end": 34, "value": "Java", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum sagst du nicht, dass du Puppet kannst?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 30, "end": 36, "value": "Puppet", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum sagst du nicht, dass du .net kannst?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 30, "end": 34, "value": ".net", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum sagst du nicht, dass du Python kannst?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 30, "end": 36, "value": "Python", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum sagst du nicht, dass du elm kannst?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 30, "end": 33, "value": "elm", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum sagst du nicht, dass du Kafka kannst?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 30, "end": 35, "value": "Kafka", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum sagst du nicht, dass du Redux kannst?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 30, "end": 35, "value": "Redux", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum sagst du nicht, dass du GraphQL kannst?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 30, "end": 37, "value": "GraphQL", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum sagst du nicht, dass du NixOS kannst?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 30, "end": 35, "value": "NixOS", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum sagst du nicht, dass du yarn kannst?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 30, "end": 34, "value": "yarn", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum sagst du nicht, dass du Amazon Lambda kannst?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 30, "end": 43, "value": "Amazon Lambda", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum sagst du nicht, dass du Aka kannst?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 30, "end": 33, "value": "Aka", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum sagst du nicht, dass du R kannst?",
+        "intent": "who_knows",
+        "entities": [{"start": 30, "end": 31, "value": "R", "entity": "topic"}]
+      },
+      {
+        "text": "Warum sagst du nicht, dass du Tensorflow kannst?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 30, "end": 40, "value": "Tensorflow", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum sagst du nicht, dass du Torch kannst?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 30, "end": 35, "value": "Torch", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum sagst du nicht, dass du Kotlin kannst?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 30, "end": 36, "value": "Kotlin", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum sagst du nicht, dass du play kannst?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 30, "end": 34, "value": "play", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum sagst du nicht, dass du Spring Boot kannst?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 30, "end": 41, "value": "Spring Boot", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum sagst du nicht, dass du Kubernets kannst?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 30, "end": 39, "value": "Kubernets", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum sagst du nicht, dass du Elixir kannst?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 30, "end": 36, "value": "Elixir", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum sagst du nicht, dass du Rust kannst?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 30, "end": 34, "value": "Rust", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum sagst du nicht, dass du Consul kannst?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 30, "end": 36, "value": "Consul", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum sagst du nicht, dass du etcd kannst?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 30, "end": 34, "value": "etcd", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum sagst du nicht, dass du Hasicorp kannst?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 30, "end": 38, "value": "Hasicorp", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum sagst du nicht, dass du Vault kannst?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 30, "end": 35, "value": "Vault", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum sagst du nicht, dass du treafik kannst?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 30, "end": 37, "value": "treafik", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum sagst du nicht, dass du Postgr kannst?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 30, "end": 36, "value": "Postgr", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Kannst mir jemand bei Symfony helfen?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 22, "end": 29, "value": "Symfony", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Kannst mir jemand bei Django helfen?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 22, "end": 28, "value": "Django", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Kannst mir jemand bei Spring helfen?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 22, "end": 28, "value": "Spring", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Kannst mir jemand bei .net Core helfen?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 22, "end": 31, "value": ".net Core", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Kannst mir jemand bei Golang helfen?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 22, "end": 28, "value": "Golang", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Kannst mir jemand bei Scala helfen?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 22, "end": 27, "value": "Scala", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Kannst mir jemand bei Ansible helfen?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 22, "end": 29, "value": "Ansible", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Kannst mir jemand bei React helfen?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 22, "end": 27, "value": "React", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Kannst mir jemand bei PHP helfen?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 22, "end": 25, "value": "PHP", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Kannst mir jemand bei React Native helfen?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 22, "end": 34, "value": "React Native", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Kannst mir jemand bei Ionic2 helfen?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 22, "end": 28, "value": "Ionic2", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Kannst mir jemand bei Angular helfen?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 22, "end": 29, "value": "Angular", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Kannst mir jemand bei ELK helfen?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 22, "end": 25, "value": "ELK", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Kannst mir jemand bei Greylog helfen?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 22, "end": 29, "value": "Greylog", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Kannst mir jemand bei AWS helfen?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 22, "end": 25, "value": "AWS", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Kannst mir jemand bei Azure helfen?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 22, "end": 27, "value": "Azure", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Kannst mir jemand bei Profitbricks helfen?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 22, "end": 34, "value": "Profitbricks", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Kannst mir jemand bei GCE helfen?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 22, "end": 25, "value": "GCE", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Kannst mir jemand bei ExtJS helfen?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 22, "end": 27, "value": "ExtJS", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Kannst mir jemand bei AngularJS helfen?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 22, "end": 31, "value": "AngularJS", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Kannst mir jemand bei Zend Framework helfen?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 22, "end": 36, "value": "Zend Framework", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Kannst mir jemand bei Symfony helfen?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 22, "end": 29, "value": "Symfony", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Kannst mir jemand bei Docker helfen?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 22, "end": 28, "value": "Docker", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Kannst mir jemand bei Swift helfen?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 22, "end": 27, "value": "Swift", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Kannst mir jemand bei Android helfen?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 22, "end": 29, "value": "Android", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Kannst mir jemand bei Java helfen?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 22, "end": 26, "value": "Java", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Kannst mir jemand bei Puppet helfen?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 22, "end": 28, "value": "Puppet", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Kannst mir jemand bei .net helfen?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 22, "end": 26, "value": ".net", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Kannst mir jemand bei Python helfen?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 22, "end": 28, "value": "Python", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Kannst mir jemand bei elm helfen?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 22, "end": 25, "value": "elm", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Kannst mir jemand bei Kafka helfen?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 22, "end": 27, "value": "Kafka", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Kannst mir jemand bei Redux helfen?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 22, "end": 27, "value": "Redux", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Kannst mir jemand bei GraphQL helfen?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 22, "end": 29, "value": "GraphQL", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Kannst mir jemand bei NixOS helfen?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 22, "end": 27, "value": "NixOS", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Kannst mir jemand bei yarn helfen?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 22, "end": 26, "value": "yarn", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Kannst mir jemand bei Amazon Lambda helfen?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 22, "end": 35, "value": "Amazon Lambda", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Kannst mir jemand bei Aka helfen?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 22, "end": 25, "value": "Aka", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Kannst mir jemand bei R helfen?",
+        "intent": "who_knows",
+        "entities": [{"start": 22, "end": 23, "value": "R", "entity": "topic"}]
+      },
+      {
+        "text": "Kannst mir jemand bei Tensorflow helfen?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 22, "end": 32, "value": "Tensorflow", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Kannst mir jemand bei Torch helfen?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 22, "end": 27, "value": "Torch", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Kannst mir jemand bei Kotlin helfen?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 22, "end": 28, "value": "Kotlin", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Kannst mir jemand bei play helfen?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 22, "end": 26, "value": "play", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Kannst mir jemand bei Spring Boot helfen?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 22, "end": 33, "value": "Spring Boot", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Kannst mir jemand bei Kubernets helfen?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 22, "end": 31, "value": "Kubernets", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Kannst mir jemand bei Elixir helfen?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 22, "end": 28, "value": "Elixir", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Kannst mir jemand bei Rust helfen?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 22, "end": 26, "value": "Rust", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Kannst mir jemand bei Consul helfen?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 22, "end": 28, "value": "Consul", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Kannst mir jemand bei etcd helfen?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 22, "end": 26, "value": "etcd", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Kannst mir jemand bei Hasicorp helfen?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 22, "end": 30, "value": "Hasicorp", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Kannst mir jemand bei Vault helfen?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 22, "end": 27, "value": "Vault", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Kannst mir jemand bei treafik helfen?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 22, "end": 29, "value": "treafik", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Kannst mir jemand bei Postgr helfen?",
+        "intent": "who_knows",
+        "entities": [
+          {"start": 22, "end": 28, "value": "Postgr", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich habe mich mit Symfony beschäftigt.",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 25, "value": "Symfony", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich habe mich mit Django beschäftigt.",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 24, "value": "Django", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich habe mich mit Spring beschäftigt.",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 24, "value": "Spring", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich habe mich mit .net Core beschäftigt.",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 27, "value": ".net Core", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich habe mich mit Golang beschäftigt.",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 24, "value": "Golang", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich habe mich mit Scala beschäftigt.",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 23, "value": "Scala", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich habe mich mit Ansible beschäftigt.",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 25, "value": "Ansible", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich habe mich mit React beschäftigt.",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 23, "value": "React", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich habe mich mit PHP beschäftigt.",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 21, "value": "PHP", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich habe mich mit React Native beschäftigt.",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 30, "value": "React Native", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich habe mich mit Ionic2 beschäftigt.",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 24, "value": "Ionic2", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich habe mich mit Angular beschäftigt.",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 25, "value": "Angular", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich habe mich mit ELK beschäftigt.",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 21, "value": "ELK", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich habe mich mit Greylog beschäftigt.",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 25, "value": "Greylog", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich habe mich mit AWS beschäftigt.",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 21, "value": "AWS", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich habe mich mit Azure beschäftigt.",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 23, "value": "Azure", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich habe mich mit Profitbricks beschäftigt.",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 30, "value": "Profitbricks", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich habe mich mit GCE beschäftigt.",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 21, "value": "GCE", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich habe mich mit ExtJS beschäftigt.",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 23, "value": "ExtJS", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich habe mich mit AngularJS beschäftigt.",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 27, "value": "AngularJS", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich habe mich mit Zend Framework beschäftigt.",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 32, "value": "Zend Framework", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich habe mich mit Symfony beschäftigt.",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 25, "value": "Symfony", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich habe mich mit Docker beschäftigt.",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 24, "value": "Docker", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich habe mich mit Swift beschäftigt.",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 23, "value": "Swift", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich habe mich mit Android beschäftigt.",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 25, "value": "Android", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich habe mich mit Java beschäftigt.",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 22, "value": "Java", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich habe mich mit Puppet beschäftigt.",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 24, "value": "Puppet", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich habe mich mit .net beschäftigt.",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 22, "value": ".net", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich habe mich mit Python beschäftigt.",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 24, "value": "Python", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich habe mich mit elm beschäftigt.",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 21, "value": "elm", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich habe mich mit Kafka beschäftigt.",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 23, "value": "Kafka", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich habe mich mit Redux beschäftigt.",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 23, "value": "Redux", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich habe mich mit GraphQL beschäftigt.",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 25, "value": "GraphQL", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich habe mich mit NixOS beschäftigt.",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 23, "value": "NixOS", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich habe mich mit yarn beschäftigt.",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 22, "value": "yarn", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich habe mich mit Amazon Lambda beschäftigt.",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 31, "value": "Amazon Lambda", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich habe mich mit Aka beschäftigt.",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 21, "value": "Aka", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich habe mich mit R beschäftigt.",
+        "intent": "claim_to_know",
+        "entities": [{"start": 18, "end": 19, "value": "R", "entity": "topic"}]
+      },
+      {
+        "text": "Ich habe mich mit Tensorflow beschäftigt.",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 28, "value": "Tensorflow", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich habe mich mit Torch beschäftigt.",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 23, "value": "Torch", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich habe mich mit Kotlin beschäftigt.",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 24, "value": "Kotlin", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich habe mich mit play beschäftigt.",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 22, "value": "play", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich habe mich mit Spring Boot beschäftigt.",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 29, "value": "Spring Boot", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich habe mich mit Kubernets beschäftigt.",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 27, "value": "Kubernets", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich habe mich mit Elixir beschäftigt.",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 24, "value": "Elixir", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich habe mich mit Rust beschäftigt.",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 22, "value": "Rust", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich habe mich mit Consul beschäftigt.",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 24, "value": "Consul", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich habe mich mit etcd beschäftigt.",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 22, "value": "etcd", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich habe mich mit Hasicorp beschäftigt.",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 26, "value": "Hasicorp", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich habe mich mit Vault beschäftigt.",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 23, "value": "Vault", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich habe mich mit treafik beschäftigt.",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 25, "value": "treafik", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich habe mich mit Postgr beschäftigt.",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 24, "value": "Postgr", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich weiß etwas in Symfony",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 25, "value": "Symfony", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich weiß etwas in Django",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 24, "value": "Django", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich weiß etwas in Spring",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 24, "value": "Spring", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich weiß etwas in .net Core",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 27, "value": ".net Core", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich weiß etwas in Golang",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 24, "value": "Golang", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich weiß etwas in Scala",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 23, "value": "Scala", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich weiß etwas in Ansible",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 25, "value": "Ansible", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich weiß etwas in React",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 23, "value": "React", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich weiß etwas in PHP",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 21, "value": "PHP", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich weiß etwas in React Native",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 30, "value": "React Native", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich weiß etwas in Ionic2",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 24, "value": "Ionic2", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich weiß etwas in Angular",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 25, "value": "Angular", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich weiß etwas in ELK",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 21, "value": "ELK", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich weiß etwas in Greylog",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 25, "value": "Greylog", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich weiß etwas in AWS",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 21, "value": "AWS", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich weiß etwas in Azure",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 23, "value": "Azure", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich weiß etwas in Profitbricks",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 30, "value": "Profitbricks", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich weiß etwas in GCE",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 21, "value": "GCE", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich weiß etwas in ExtJS",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 23, "value": "ExtJS", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich weiß etwas in AngularJS",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 27, "value": "AngularJS", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich weiß etwas in Zend Framework",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 32, "value": "Zend Framework", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich weiß etwas in Symfony",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 25, "value": "Symfony", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich weiß etwas in Docker",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 24, "value": "Docker", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich weiß etwas in Swift",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 23, "value": "Swift", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich weiß etwas in Android",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 25, "value": "Android", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich weiß etwas in Java",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 22, "value": "Java", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich weiß etwas in Puppet",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 24, "value": "Puppet", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich weiß etwas in .net",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 22, "value": ".net", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich weiß etwas in Python",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 24, "value": "Python", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich weiß etwas in elm",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 21, "value": "elm", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich weiß etwas in Kafka",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 23, "value": "Kafka", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich weiß etwas in Redux",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 23, "value": "Redux", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich weiß etwas in GraphQL",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 25, "value": "GraphQL", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich weiß etwas in NixOS",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 23, "value": "NixOS", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich weiß etwas in yarn",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 22, "value": "yarn", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich weiß etwas in Amazon Lambda",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 31, "value": "Amazon Lambda", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich weiß etwas in Aka",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 21, "value": "Aka", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich weiß etwas in R",
+        "intent": "claim_to_know",
+        "entities": [{"start": 18, "end": 19, "value": "R", "entity": "topic"}]
+      },
+      {
+        "text": "Ich weiß etwas in Tensorflow",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 28, "value": "Tensorflow", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich weiß etwas in Torch",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 23, "value": "Torch", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich weiß etwas in Kotlin",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 24, "value": "Kotlin", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich weiß etwas in play",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 22, "value": "play", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich weiß etwas in Spring Boot",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 29, "value": "Spring Boot", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich weiß etwas in Kubernets",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 27, "value": "Kubernets", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich weiß etwas in Elixir",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 24, "value": "Elixir", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich weiß etwas in Rust",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 22, "value": "Rust", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich weiß etwas in Consul",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 24, "value": "Consul", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich weiß etwas in etcd",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 22, "value": "etcd", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich weiß etwas in Hasicorp",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 26, "value": "Hasicorp", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich weiß etwas in Vault",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 23, "value": "Vault", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich weiß etwas in treafik",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 25, "value": "treafik", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Ich weiß etwas in Postgr",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 18, "end": 24, "value": "Postgr", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mein Mayday-Projekt beschäftigt sich mit Symfony",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 41, "end": 48, "value": "Symfony", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mein Mayday-Projekt beschäftigt sich mit Django",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 41, "end": 47, "value": "Django", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mein Mayday-Projekt beschäftigt sich mit Spring",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 41, "end": 47, "value": "Spring", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mein Mayday-Projekt beschäftigt sich mit .net Core",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 41, "end": 50, "value": ".net Core", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mein Mayday-Projekt beschäftigt sich mit Golang",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 41, "end": 47, "value": "Golang", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mein Mayday-Projekt beschäftigt sich mit Scala",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 41, "end": 46, "value": "Scala", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mein Mayday-Projekt beschäftigt sich mit Ansible",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 41, "end": 48, "value": "Ansible", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mein Mayday-Projekt beschäftigt sich mit React",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 41, "end": 46, "value": "React", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mein Mayday-Projekt beschäftigt sich mit PHP",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 41, "end": 44, "value": "PHP", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mein Mayday-Projekt beschäftigt sich mit React Native",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 41, "end": 53, "value": "React Native", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mein Mayday-Projekt beschäftigt sich mit Ionic2",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 41, "end": 47, "value": "Ionic2", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mein Mayday-Projekt beschäftigt sich mit Angular",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 41, "end": 48, "value": "Angular", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mein Mayday-Projekt beschäftigt sich mit ELK",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 41, "end": 44, "value": "ELK", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mein Mayday-Projekt beschäftigt sich mit Greylog",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 41, "end": 48, "value": "Greylog", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mein Mayday-Projekt beschäftigt sich mit AWS",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 41, "end": 44, "value": "AWS", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mein Mayday-Projekt beschäftigt sich mit Azure",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 41, "end": 46, "value": "Azure", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mein Mayday-Projekt beschäftigt sich mit Profitbricks",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 41, "end": 53, "value": "Profitbricks", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mein Mayday-Projekt beschäftigt sich mit GCE",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 41, "end": 44, "value": "GCE", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mein Mayday-Projekt beschäftigt sich mit ExtJS",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 41, "end": 46, "value": "ExtJS", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mein Mayday-Projekt beschäftigt sich mit AngularJS",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 41, "end": 50, "value": "AngularJS", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mein Mayday-Projekt beschäftigt sich mit Zend Framework",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 41, "end": 55, "value": "Zend Framework", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mein Mayday-Projekt beschäftigt sich mit Symfony",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 41, "end": 48, "value": "Symfony", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mein Mayday-Projekt beschäftigt sich mit Docker",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 41, "end": 47, "value": "Docker", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mein Mayday-Projekt beschäftigt sich mit Swift",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 41, "end": 46, "value": "Swift", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mein Mayday-Projekt beschäftigt sich mit Android",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 41, "end": 48, "value": "Android", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mein Mayday-Projekt beschäftigt sich mit Java",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 41, "end": 45, "value": "Java", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mein Mayday-Projekt beschäftigt sich mit Puppet",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 41, "end": 47, "value": "Puppet", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mein Mayday-Projekt beschäftigt sich mit .net",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 41, "end": 45, "value": ".net", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mein Mayday-Projekt beschäftigt sich mit Python",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 41, "end": 47, "value": "Python", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mein Mayday-Projekt beschäftigt sich mit elm",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 41, "end": 44, "value": "elm", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mein Mayday-Projekt beschäftigt sich mit Kafka",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 41, "end": 46, "value": "Kafka", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mein Mayday-Projekt beschäftigt sich mit Redux",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 41, "end": 46, "value": "Redux", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mein Mayday-Projekt beschäftigt sich mit GraphQL",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 41, "end": 48, "value": "GraphQL", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mein Mayday-Projekt beschäftigt sich mit NixOS",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 41, "end": 46, "value": "NixOS", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mein Mayday-Projekt beschäftigt sich mit yarn",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 41, "end": 45, "value": "yarn", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mein Mayday-Projekt beschäftigt sich mit Amazon Lambda",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 41, "end": 54, "value": "Amazon Lambda", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mein Mayday-Projekt beschäftigt sich mit Aka",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 41, "end": 44, "value": "Aka", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mein Mayday-Projekt beschäftigt sich mit R",
+        "intent": "claim_to_know",
+        "entities": [{"start": 41, "end": 42, "value": "R", "entity": "topic"}]
+      },
+      {
+        "text": "Mein Mayday-Projekt beschäftigt sich mit Tensorflow",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 41, "end": 51, "value": "Tensorflow", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mein Mayday-Projekt beschäftigt sich mit Torch",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 41, "end": 46, "value": "Torch", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mein Mayday-Projekt beschäftigt sich mit Kotlin",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 41, "end": 47, "value": "Kotlin", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mein Mayday-Projekt beschäftigt sich mit play",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 41, "end": 45, "value": "play", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mein Mayday-Projekt beschäftigt sich mit Spring Boot",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 41, "end": 52, "value": "Spring Boot", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mein Mayday-Projekt beschäftigt sich mit Kubernets",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 41, "end": 50, "value": "Kubernets", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mein Mayday-Projekt beschäftigt sich mit Elixir",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 41, "end": 47, "value": "Elixir", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mein Mayday-Projekt beschäftigt sich mit Rust",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 41, "end": 45, "value": "Rust", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mein Mayday-Projekt beschäftigt sich mit Consul",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 41, "end": 47, "value": "Consul", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mein Mayday-Projekt beschäftigt sich mit etcd",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 41, "end": 45, "value": "etcd", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mein Mayday-Projekt beschäftigt sich mit Hasicorp",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 41, "end": 49, "value": "Hasicorp", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mein Mayday-Projekt beschäftigt sich mit Vault",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 41, "end": 46, "value": "Vault", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mein Mayday-Projekt beschäftigt sich mit treafik",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 41, "end": 48, "value": "treafik", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mein Mayday-Projekt beschäftigt sich mit Postgr",
+        "intent": "claim_to_know",
+        "entities": [
+          {"start": 41, "end": 47, "value": "Postgr", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mir ist entfallen, worum es bei Symfony gemacht",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 32, "end": 39, "value": "Symfony", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mir ist entfallen, worum es bei Django gemacht",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 32, "end": 38, "value": "Django", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mir ist entfallen, worum es bei Spring gemacht",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 32, "end": 38, "value": "Spring", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mir ist entfallen, worum es bei .net Core gemacht",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 32, "end": 41, "value": ".net Core", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mir ist entfallen, worum es bei Golang gemacht",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 32, "end": 38, "value": "Golang", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mir ist entfallen, worum es bei Scala gemacht",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 32, "end": 37, "value": "Scala", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mir ist entfallen, worum es bei Ansible gemacht",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 32, "end": 39, "value": "Ansible", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mir ist entfallen, worum es bei React gemacht",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 32, "end": 37, "value": "React", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mir ist entfallen, worum es bei PHP gemacht",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 32, "end": 35, "value": "PHP", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mir ist entfallen, worum es bei React Native gemacht",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 32, "end": 44, "value": "React Native", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mir ist entfallen, worum es bei Ionic2 gemacht",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 32, "end": 38, "value": "Ionic2", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mir ist entfallen, worum es bei Angular gemacht",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 32, "end": 39, "value": "Angular", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mir ist entfallen, worum es bei ELK gemacht",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 32, "end": 35, "value": "ELK", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mir ist entfallen, worum es bei Greylog gemacht",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 32, "end": 39, "value": "Greylog", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mir ist entfallen, worum es bei AWS gemacht",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 32, "end": 35, "value": "AWS", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mir ist entfallen, worum es bei Azure gemacht",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 32, "end": 37, "value": "Azure", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mir ist entfallen, worum es bei Profitbricks gemacht",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 32, "end": 44, "value": "Profitbricks", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mir ist entfallen, worum es bei GCE gemacht",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 32, "end": 35, "value": "GCE", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mir ist entfallen, worum es bei ExtJS gemacht",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 32, "end": 37, "value": "ExtJS", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mir ist entfallen, worum es bei AngularJS gemacht",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 32, "end": 41, "value": "AngularJS", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mir ist entfallen, worum es bei Zend Framework gemacht",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 32, "end": 46, "value": "Zend Framework", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mir ist entfallen, worum es bei Symfony gemacht",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 32, "end": 39, "value": "Symfony", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mir ist entfallen, worum es bei Docker gemacht",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 32, "end": 38, "value": "Docker", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mir ist entfallen, worum es bei Swift gemacht",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 32, "end": 37, "value": "Swift", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mir ist entfallen, worum es bei Android gemacht",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 32, "end": 39, "value": "Android", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mir ist entfallen, worum es bei Java gemacht",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 32, "end": 36, "value": "Java", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mir ist entfallen, worum es bei Puppet gemacht",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 32, "end": 38, "value": "Puppet", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mir ist entfallen, worum es bei .net gemacht",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 32, "end": 36, "value": ".net", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mir ist entfallen, worum es bei Python gemacht",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 32, "end": 38, "value": "Python", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mir ist entfallen, worum es bei elm gemacht",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 32, "end": 35, "value": "elm", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mir ist entfallen, worum es bei Kafka gemacht",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 32, "end": 37, "value": "Kafka", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mir ist entfallen, worum es bei Redux gemacht",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 32, "end": 37, "value": "Redux", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mir ist entfallen, worum es bei GraphQL gemacht",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 32, "end": 39, "value": "GraphQL", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mir ist entfallen, worum es bei NixOS gemacht",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 32, "end": 37, "value": "NixOS", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mir ist entfallen, worum es bei yarn gemacht",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 32, "end": 36, "value": "yarn", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mir ist entfallen, worum es bei Amazon Lambda gemacht",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 32, "end": 45, "value": "Amazon Lambda", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mir ist entfallen, worum es bei Aka gemacht",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 32, "end": 35, "value": "Aka", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mir ist entfallen, worum es bei R gemacht",
+        "intent": "forgotten",
+        "entities": [{"start": 32, "end": 33, "value": "R", "entity": "topic"}]
+      },
+      {
+        "text": "Mir ist entfallen, worum es bei Tensorflow gemacht",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 32, "end": 42, "value": "Tensorflow", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mir ist entfallen, worum es bei Torch gemacht",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 32, "end": 37, "value": "Torch", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mir ist entfallen, worum es bei Kotlin gemacht",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 32, "end": 38, "value": "Kotlin", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mir ist entfallen, worum es bei play gemacht",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 32, "end": 36, "value": "play", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mir ist entfallen, worum es bei Spring Boot gemacht",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 32, "end": 43, "value": "Spring Boot", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mir ist entfallen, worum es bei Kubernets gemacht",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 32, "end": 41, "value": "Kubernets", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mir ist entfallen, worum es bei Elixir gemacht",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 32, "end": 38, "value": "Elixir", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mir ist entfallen, worum es bei Rust gemacht",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 32, "end": 36, "value": "Rust", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mir ist entfallen, worum es bei Consul gemacht",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 32, "end": 38, "value": "Consul", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mir ist entfallen, worum es bei etcd gemacht",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 32, "end": 36, "value": "etcd", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mir ist entfallen, worum es bei Hasicorp gemacht",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 32, "end": 40, "value": "Hasicorp", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mir ist entfallen, worum es bei Vault gemacht",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 32, "end": 37, "value": "Vault", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mir ist entfallen, worum es bei treafik gemacht",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 32, "end": 39, "value": "treafik", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Mir ist entfallen, worum es bei Postgr gemacht",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 32, "end": 38, "value": "Postgr", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum muss ich bei Symfony ... tun?",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 19, "end": 26, "value": "Symfony", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum muss ich bei Django ... tun?",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 19, "end": 25, "value": "Django", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum muss ich bei Spring ... tun?",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 19, "end": 25, "value": "Spring", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum muss ich bei .net Core ... tun?",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 19, "end": 28, "value": ".net Core", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum muss ich bei Golang ... tun?",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 19, "end": 25, "value": "Golang", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum muss ich bei Scala ... tun?",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 19, "end": 24, "value": "Scala", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum muss ich bei Ansible ... tun?",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 19, "end": 26, "value": "Ansible", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum muss ich bei React ... tun?",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 19, "end": 24, "value": "React", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum muss ich bei PHP ... tun?",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 19, "end": 22, "value": "PHP", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum muss ich bei React Native ... tun?",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 19, "end": 31, "value": "React Native", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum muss ich bei Ionic2 ... tun?",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 19, "end": 25, "value": "Ionic2", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum muss ich bei Angular ... tun?",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 19, "end": 26, "value": "Angular", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum muss ich bei ELK ... tun?",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 19, "end": 22, "value": "ELK", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum muss ich bei Greylog ... tun?",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 19, "end": 26, "value": "Greylog", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum muss ich bei AWS ... tun?",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 19, "end": 22, "value": "AWS", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum muss ich bei Azure ... tun?",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 19, "end": 24, "value": "Azure", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum muss ich bei Profitbricks ... tun?",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 19, "end": 31, "value": "Profitbricks", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum muss ich bei GCE ... tun?",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 19, "end": 22, "value": "GCE", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum muss ich bei ExtJS ... tun?",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 19, "end": 24, "value": "ExtJS", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum muss ich bei AngularJS ... tun?",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 19, "end": 28, "value": "AngularJS", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum muss ich bei Zend Framework ... tun?",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 19, "end": 33, "value": "Zend Framework", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum muss ich bei Symfony ... tun?",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 19, "end": 26, "value": "Symfony", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum muss ich bei Docker ... tun?",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 19, "end": 25, "value": "Docker", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum muss ich bei Swift ... tun?",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 19, "end": 24, "value": "Swift", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum muss ich bei Android ... tun?",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 19, "end": 26, "value": "Android", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum muss ich bei Java ... tun?",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 19, "end": 23, "value": "Java", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum muss ich bei Puppet ... tun?",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 19, "end": 25, "value": "Puppet", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum muss ich bei .net ... tun?",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 19, "end": 23, "value": ".net", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum muss ich bei Python ... tun?",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 19, "end": 25, "value": "Python", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum muss ich bei elm ... tun?",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 19, "end": 22, "value": "elm", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum muss ich bei Kafka ... tun?",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 19, "end": 24, "value": "Kafka", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum muss ich bei Redux ... tun?",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 19, "end": 24, "value": "Redux", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum muss ich bei GraphQL ... tun?",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 19, "end": 26, "value": "GraphQL", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum muss ich bei NixOS ... tun?",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 19, "end": 24, "value": "NixOS", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum muss ich bei yarn ... tun?",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 19, "end": 23, "value": "yarn", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum muss ich bei Amazon Lambda ... tun?",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 19, "end": 32, "value": "Amazon Lambda", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum muss ich bei Aka ... tun?",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 19, "end": 22, "value": "Aka", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum muss ich bei R ... tun?",
+        "intent": "forgotten",
+        "entities": [{"start": 19, "end": 20, "value": "R", "entity": "topic"}]
+      },
+      {
+        "text": "Warum muss ich bei Tensorflow ... tun?",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 19, "end": 29, "value": "Tensorflow", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum muss ich bei Torch ... tun?",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 19, "end": 24, "value": "Torch", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum muss ich bei Kotlin ... tun?",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 19, "end": 25, "value": "Kotlin", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum muss ich bei play ... tun?",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 19, "end": 23, "value": "play", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum muss ich bei Spring Boot ... tun?",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 19, "end": 30, "value": "Spring Boot", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum muss ich bei Kubernets ... tun?",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 19, "end": 28, "value": "Kubernets", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum muss ich bei Elixir ... tun?",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 19, "end": 25, "value": "Elixir", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum muss ich bei Rust ... tun?",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 19, "end": 23, "value": "Rust", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum muss ich bei Consul ... tun?",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 19, "end": 25, "value": "Consul", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum muss ich bei etcd ... tun?",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 19, "end": 23, "value": "etcd", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum muss ich bei Hasicorp ... tun?",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 19, "end": 27, "value": "Hasicorp", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum muss ich bei Vault ... tun?",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 19, "end": 24, "value": "Vault", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum muss ich bei treafik ... tun?",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 19, "end": 26, "value": "treafik", "entity": "topic"}
+        ]
+      },
+      {
+        "text": "Warum muss ich bei Postgr ... tun?",
+        "intent": "forgotten",
+        "entities": [
+          {"start": 19, "end": 25, "value": "Postgr", "entity": "topic"}
+        ]
       }
     ]
   }

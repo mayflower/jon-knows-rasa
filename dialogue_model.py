@@ -15,13 +15,13 @@ if __name__ == '__main__':
     # domain = Domain()
     featurizer = MaxHistoryTrackerFeaturizer(BinarySingleStateFeaturizer(),
                                              max_history=5)
-    agent = Agent('config/chat_domain.yml',
+    agent = Agent('./config/chat_domain.yml',
                   policies=[MemoizationPolicy(max_history=5),
                             KerasPolicy(featurizer)])
     # agent = Agent('data/chat_domain.yml', policies = [MemoizationPolicy(), KerasPolicy()])
-
+    data = agent.load_data(dialog_training_data_file)
     agent.train(
-        dialog_training_data_file,
+        data,
         augmentation_factor=50,
         epochs=500,
         batch_size=10,

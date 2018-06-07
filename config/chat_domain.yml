@@ -12,7 +12,7 @@ entities:
 slots:
     category:
         type: text
-    theme:
+    topic:
         type: text
     score:
         type: text
@@ -21,6 +21,16 @@ templates:
     utter_greet:
         - Ich habe keine ahnung
         - Sein oder nicht sein - wer soll denn sowas wissen?
+    utter_get_who_knows_category:
+        - In welche Kategorie würdest du es einsortieren
+        - Wo gehört es dazu?
+    utter_get_who_knows_topic:
+        - Um welches Thema geht es?
+    utter_get_claim_to_know_category:
+        - In welche Kategorie würdest du es einsortieren
+        - Wo gehört es dazu?
+    utter_get_claim_to_know_topic:
+        - Um welches Thema geht es?
 
 actions:
     - utter_greet
@@ -28,6 +38,6 @@ actions:
     - utter_get_who_knows_topic
     - utter_get_claim_to_know_category
     - utter_get_claim_to_know_topic
-    - action.ActionWhoKnows
-    - action.ActionClaimToKnow
-    - action.ActionIForgot
+    - actions.ActionWhoKnows
+    - actions.ActionClaimToKnow
+    - actions.ActionIForgot

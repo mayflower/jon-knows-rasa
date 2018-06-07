@@ -1,32 +1,23 @@
 import logging
+
 from rasa_core.actions import Action
 
-class ActionOrderPizza(Action):
+class ActionWhoKnows(Action):
     def name(self):
-        return 'action_order_pizza'
+        return 'action_who_knows'
     def run(self, dispatcher, tracker, domain):
-        size = tracker.get_slot('size') if tracker.get_slot('size') is None else 'No size set'
-        toppings = tracker.get_slot('toppings') if tracker.get_slot('toppings') is None else 'No toppings set'
-        dispatcher.utter_message('Lets order some pizza with size "'+size+'" and with toppings: "'+toppings)
+        dispatcher.utter_message('Action who_knows')
         return []
 
-class ActionPedant(Action):
+class ActionIForgot(Action):
     def name(self):
-        return 'action_pedant'
+        return 'action_forgotten'
     def run(self, dispatcher, tracker, domain):
-        correction = tracker.get_slot('correction') if tracker.get_slot('correction') is None else 'Got nothing'
-        logging.info("Domain: {}".format(domain));
-        dispatcher.utter_message('You are not concrete enough - '+correction)
+        dispatcher.utter_message('Action forgotten')
         return []
-class ActionIllness(Action):
+class ActionClaimToKnow(Action):
     def name(self):
-        return 'action_report_illness'
+        return 'action_claim_to_know'
     def run(self, dispatcher, tracker, domain):
-        first = tracker.get_slot('first') if tracker.get_slot('first') is None else 'today'
-        last = tracker.get_slot('last') if tracker.get_slot('last') is None else 'Not set'
-        duration = tracker.get_slot('duration') if tracker.get_slot('duration') else "We would collect some wood, cause by the house."
-        if type (last) == str or last is None or last == 'today':
-            dispatcher.utter_message('Get will soon. Will insert illness from "'+first+'" to "'+last+'"')
-        else:
-            dispatcher.utter_message('Get will soon. Will insert illness from "'+first+'" for "'+duration+'"')
+        dispatcher.utter_message('Action claim_to_know')
         return []
