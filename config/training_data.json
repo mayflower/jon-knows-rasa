@@ -1,0 +1,362 @@
+{
+  "rasa_nlu_data": {
+    "regex_features": [],
+    "entity_synonyms": [],
+    "common_examples": [
+      {"text": "hi", "intent": "greet", "entities": []},
+      {"text": "moin", "intent": "greet", "entities": []},
+      {"text": "cheers", "intent": "greet", "entities": []},
+      {"text": "hey", "intent": "greet", "entities": []},
+      {"text": "Hola", "intent": "greet", "entities": []},
+      {
+        "text": "I want cheese on my Pizza",
+        "intent": "order_pizza",
+        "entities": [
+          {"start": 7, "end": 13, "value": "cheese", "entity": "toppings"}
+        ]
+      },
+      {
+        "text": "I want sausage on my Pizza",
+        "intent": "order_pizza",
+        "entities": [
+          {"start": 7, "end": 14, "value": "sausage", "entity": "toppings"}
+        ]
+      },
+      {
+        "text": "I want onions on my Pizza",
+        "intent": "order_pizza",
+        "entities": [
+          {"start": 7, "end": 13, "value": "onions", "entity": "toppings"}
+        ]
+      },
+      {
+        "text": "I want olives on my Pizza",
+        "intent": "order_pizza",
+        "entities": [
+          {"start": 7, "end": 13, "value": "olives", "entity": "toppings"}
+        ]
+      },
+      {
+        "text": "I want a large pizza with cheese",
+        "intent": "order_pizza",
+        "entities": [
+          {"start": 9, "end": 14, "value": "large", "entity": "size"},
+          {"start": 26, "end": 32, "value": "cheese", "entity": "toppings"}
+        ]
+      },
+      {
+        "text": "I want a large pizza with sausage",
+        "intent": "order_pizza",
+        "entities": [
+          {"start": 9, "end": 14, "value": "large", "entity": "size"},
+          {"start": 26, "end": 33, "value": "sausage", "entity": "toppings"}
+        ]
+      },
+      {
+        "text": "I want a large pizza with onions",
+        "intent": "order_pizza",
+        "entities": [
+          {"start": 9, "end": 14, "value": "large", "entity": "size"},
+          {"start": 26, "end": 32, "value": "onions", "entity": "toppings"}
+        ]
+      },
+      {
+        "text": "I want a large pizza with olives",
+        "intent": "order_pizza",
+        "entities": [
+          {"start": 9, "end": 14, "value": "large", "entity": "size"},
+          {"start": 26, "end": 32, "value": "olives", "entity": "toppings"}
+        ]
+      },
+      {
+        "text": "I want a small pizza with cheese",
+        "intent": "order_pizza",
+        "entities": [
+          {"start": 9, "end": 14, "value": "small", "entity": "size"},
+          {"start": 26, "end": 32, "value": "cheese", "entity": "toppings"}
+        ]
+      },
+      {
+        "text": "I want a small pizza with sausage",
+        "intent": "order_pizza",
+        "entities": [
+          {"start": 9, "end": 14, "value": "small", "entity": "size"},
+          {"start": 26, "end": 33, "value": "sausage", "entity": "toppings"}
+        ]
+      },
+      {
+        "text": "I want a small pizza with onions",
+        "intent": "order_pizza",
+        "entities": [
+          {"start": 9, "end": 14, "value": "small", "entity": "size"},
+          {"start": 26, "end": 32, "value": "onions", "entity": "toppings"}
+        ]
+      },
+      {
+        "text": "I want a small pizza with olives",
+        "intent": "order_pizza",
+        "entities": [
+          {"start": 9, "end": 14, "value": "small", "entity": "size"},
+          {"start": 26, "end": 32, "value": "olives", "entity": "toppings"}
+        ]
+      },
+      {
+        "text": "I want a tyni pizza with cheese",
+        "intent": "order_pizza",
+        "entities": [
+          {"start": 9, "end": 13, "value": "tyni", "entity": "size"},
+          {"start": 25, "end": 31, "value": "cheese", "entity": "toppings"}
+        ]
+      },
+      {
+        "text": "I want a tyni pizza with sausage",
+        "intent": "order_pizza",
+        "entities": [
+          {"start": 9, "end": 13, "value": "tyni", "entity": "size"},
+          {"start": 25, "end": 32, "value": "sausage", "entity": "toppings"}
+        ]
+      },
+      {
+        "text": "I want a tyni pizza with onions",
+        "intent": "order_pizza",
+        "entities": [
+          {"start": 9, "end": 13, "value": "tyni", "entity": "size"},
+          {"start": 25, "end": 31, "value": "onions", "entity": "toppings"}
+        ]
+      },
+      {
+        "text": "I want a tyni pizza with olives",
+        "intent": "order_pizza",
+        "entities": [
+          {"start": 9, "end": 13, "value": "tyni", "entity": "size"},
+          {"start": 25, "end": 31, "value": "olives", "entity": "toppings"}
+        ]
+      },
+      {
+        "text": "I want a big pizza with cheese",
+        "intent": "order_pizza",
+        "entities": [
+          {"start": 9, "end": 12, "value": "big", "entity": "size"},
+          {"start": 24, "end": 30, "value": "cheese", "entity": "toppings"}
+        ]
+      },
+      {
+        "text": "I want a big pizza with sausage",
+        "intent": "order_pizza",
+        "entities": [
+          {"start": 9, "end": 12, "value": "big", "entity": "size"},
+          {"start": 24, "end": 31, "value": "sausage", "entity": "toppings"}
+        ]
+      },
+      {
+        "text": "I want a big pizza with onions",
+        "intent": "order_pizza",
+        "entities": [
+          {"start": 9, "end": 12, "value": "big", "entity": "size"},
+          {"start": 24, "end": 30, "value": "onions", "entity": "toppings"}
+        ]
+      },
+      {
+        "text": "I want a big pizza with olives",
+        "intent": "order_pizza",
+        "entities": [
+          {"start": 9, "end": 12, "value": "big", "entity": "size"},
+          {"start": 24, "end": 30, "value": "olives", "entity": "toppings"}
+        ]
+      },
+      {
+        "text": "I want a awesome pizza with cheese",
+        "intent": "order_pizza",
+        "entities": [
+          {"start": 9, "end": 16, "value": "awesome", "entity": "size"},
+          {"start": 28, "end": 34, "value": "cheese", "entity": "toppings"}
+        ]
+      },
+      {
+        "text": "I want a awesome pizza with sausage",
+        "intent": "order_pizza",
+        "entities": [
+          {"start": 9, "end": 16, "value": "awesome", "entity": "size"},
+          {"start": 28, "end": 35, "value": "sausage", "entity": "toppings"}
+        ]
+      },
+      {
+        "text": "I want a awesome pizza with onions",
+        "intent": "order_pizza",
+        "entities": [
+          {"start": 9, "end": 16, "value": "awesome", "entity": "size"},
+          {"start": 28, "end": 34, "value": "onions", "entity": "toppings"}
+        ]
+      },
+      {
+        "text": "I want a awesome pizza with olives",
+        "intent": "order_pizza",
+        "entities": [
+          {"start": 9, "end": 16, "value": "awesome", "entity": "size"},
+          {"start": 28, "end": 34, "value": "olives", "entity": "toppings"}
+        ]
+      },
+      {"text": "I am hungry", "intent": "order_pizza", "entities": []},
+      {"text": "Pizza", "intent": "order_pizza", "entities": []},
+      {"text": "bye", "intent": "goodby", "entities": []},
+      {"text": "thx", "intent": "goodby", "entities": []},
+      {"text": "fuck of", "intent": "goodby", "entities": []},
+      {"text": "hf", "intent": "goodby", "entities": []},
+      {
+        "text": "Hi, i can not come 1 days",
+        "intent": "report_illness",
+        "entities": [
+          {"start": 19, "end": 20, "value": "1", "entity": "duration"}
+        ]
+      },
+      {
+        "text": "Hi, i can not come 2 days",
+        "intent": "report_illness",
+        "entities": [
+          {"start": 19, "end": 20, "value": "2", "entity": "duration"}
+        ]
+      },
+      {
+        "text": "Hi, i can not come 3 days",
+        "intent": "report_illness",
+        "entities": [
+          {"start": 19, "end": 20, "value": "3", "entity": "duration"}
+        ]
+      },
+      {
+        "text": "Hi, i can not come 4 days",
+        "intent": "report_illness",
+        "entities": [
+          {"start": 19, "end": 20, "value": "4", "entity": "duration"}
+        ]
+      },
+      {
+        "text": "Hi, i can not come 5 days",
+        "intent": "report_illness",
+        "entities": [
+          {"start": 19, "end": 20, "value": "5", "entity": "duration"}
+        ]
+      },
+      {
+        "text": "I have to stay home until next two days",
+        "intent": "report_illness",
+        "entities": [
+          {"start": 26, "end": 39, "value": "next two days", "entity": "last"}
+        ]
+      },
+      {
+        "text": "I have to stay home until end of week",
+        "intent": "report_illness",
+        "entities": [
+          {"start": 26, "end": 37, "value": "end of week", "entity": "last"}
+        ]
+      },
+      {
+        "text": "I have to stay home until 4 days",
+        "intent": "report_illness",
+        "entities": [
+          {"start": 26, "end": 32, "value": "4 days", "entity": "last"}
+        ]
+      },
+      {
+        "text": "My doctor advised to stay home next two days",
+        "intent": "report_illness",
+        "entities": [
+          {"start": 31, "end": 44, "value": "next two days", "entity": "last"}
+        ]
+      },
+      {
+        "text": "My doctor advised to stay home end of week",
+        "intent": "report_illness",
+        "entities": [
+          {"start": 31, "end": 42, "value": "end of week", "entity": "last"}
+        ]
+      },
+      {
+        "text": "My doctor advised to stay home 4 days",
+        "intent": "report_illness",
+        "entities": [
+          {"start": 31, "end": 37, "value": "4 days", "entity": "last"}
+        ]
+      },
+      {
+        "text": "I am ill from from to next two days",
+        "intent": "report_illness",
+        "entities": [
+          {"start": 14, "end": 18, "value": "from", "entity": "first"},
+          {"start": 22, "end": 35, "value": "next two days", "entity": "last"}
+        ]
+      },
+      {
+        "text": "I am ill from from to end of week",
+        "intent": "report_illness",
+        "entities": [
+          {"start": 14, "end": 18, "value": "from", "entity": "first"},
+          {"start": 22, "end": 33, "value": "end of week", "entity": "last"}
+        ]
+      },
+      {
+        "text": "I am ill from from to 4 days",
+        "intent": "report_illness",
+        "entities": [
+          {"start": 14, "end": 18, "value": "from", "entity": "first"},
+          {"start": 22, "end": 28, "value": "4 days", "entity": "last"}
+        ]
+      },
+      {
+        "text": "I am ill from start to next two days",
+        "intent": "report_illness",
+        "entities": [
+          {"start": 14, "end": 19, "value": "start", "entity": "first"},
+          {"start": 23, "end": 36, "value": "next two days", "entity": "last"}
+        ]
+      },
+      {
+        "text": "I am ill from start to end of week",
+        "intent": "report_illness",
+        "entities": [
+          {"start": 14, "end": 19, "value": "start", "entity": "first"},
+          {"start": 23, "end": 34, "value": "end of week", "entity": "last"}
+        ]
+      },
+      {
+        "text": "I am ill from start to 4 days",
+        "intent": "report_illness",
+        "entities": [
+          {"start": 14, "end": 19, "value": "start", "entity": "first"},
+          {"start": 23, "end": 29, "value": "4 days", "entity": "last"}
+        ]
+      },
+      {
+        "text": "I am ill from today to next two days",
+        "intent": "report_illness",
+        "entities": [
+          {"start": 14, "end": 19, "value": "today", "entity": "first"},
+          {"start": 23, "end": 36, "value": "next two days", "entity": "last"}
+        ]
+      },
+      {
+        "text": "I am ill from today to end of week",
+        "intent": "report_illness",
+        "entities": [
+          {"start": 14, "end": 19, "value": "today", "entity": "first"},
+          {"start": 23, "end": 34, "value": "end of week", "entity": "last"}
+        ]
+      },
+      {
+        "text": "I am ill from today to 4 days",
+        "intent": "report_illness",
+        "entities": [
+          {"start": 14, "end": 19, "value": "today", "entity": "first"},
+          {"start": 23, "end": 29, "value": "4 days", "entity": "last"}
+        ]
+      },
+      {"text": "I am ill", "intent": "report_illness", "entities": []},
+      {
+        "text": "I have problems to come",
+        "intent": "report_illness",
+        "entities": []
+      }
+    ]
+  }
+}

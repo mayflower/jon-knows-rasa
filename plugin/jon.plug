@@ -1,0 +1,9 @@
+[Core]
+Name = Jon
+Module = jon
+
+[Documentation]
+Description = Errbot <3 Skills
+
+[Python]
+Version = 3

@@ -1,0 +1,33 @@
+intents:
+    - who_knows
+    - claim_to_know
+    - forgotten
+    - greet
+
+entities:
+    - category
+    - topic
+    - score
+
+slots:
+    category:
+        type: text
+    theme:
+        type: text
+    score:
+        type: text
+
+templates:
+    utter_greet:
+        - Ich habe keine ahnung
+        - Sein oder nicht sein - wer soll denn sowas wissen?
+
+actions:
+    - utter_greet
+    - utter_get_who_knows_category
+    - utter_get_who_knows_topic
+    - utter_get_claim_to_know_category
+    - utter_get_claim_to_know_topic
+    - action.ActionWhoKnows
+    - action.ActionClaimToKnow
+    - action.ActionIForgot

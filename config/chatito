@@ -1,0 +1,96 @@
+%[greet]
+    hi
+    moin
+    cheers
+    hey
+    Hola
+    What's up
+
+
+%[who_knows]
+    Wer kennt sich mit @[topic] aus?
+    Wer weiß etwas über @[topic] gemacht?
+    Welche Skills haben wir in @[category]?
+    Warum sagst du nicht, dass du @[topic] kannst?
+    Kannst mir jemand bei @[topic] helfen?
+
+%[claim_to_know]
+    Ich habe mich mit @[topic] beschäftigt.
+    Ich weiß etwas in @[topic]
+    Mein Mayday-Projekt beschäftigt sich mit @[topic]
+
+%[forgotten]
+    Mir ist entfallen, worum es bei @[topic] gemacht
+    Warum muss ich bei @[topic] ... tun?
+
+@[topic]
+    Symfony
+    Django
+    Spring
+    .net Core
+    Golang
+    Scala
+    Ansible
+    React
+    PHP
+    React Native
+    Ionic2
+    Angular
+    ELK
+    Greylog
+    AWS
+    Azure
+    Profitbricks
+    GCE
+    ExtJS
+    AngularJS
+    Zend Framework
+    Symfony
+    Docker
+    Swift
+    Android
+    Java
+    Puppet
+    .net
+    Python
+    elm
+    Kafka
+    Redux
+    GraphQL
+    NixOS
+    yarn
+    Amazon Lambda
+    Aka
+    R
+    Tensorflow
+    Torch
+    Kotlin
+    play
+    Spring Boot
+    Kubernets
+    Elixir
+    Rust
+    Consul
+    etcd
+    Hasicorp
+    Vault
+    treafik
+    Postgr
+
+@[category]
+    Languages & Frameworks
+    Tools
+    Techniques
+    Platforms
+
+@[score]
+    1
+    2
+    3
+    4
+    5
+    6
+    7
+    8
+    9
+    10
