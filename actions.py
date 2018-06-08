@@ -45,8 +45,8 @@ class ActionClaimToKnowTopic(Action):
     def name(self):
         return 'action_claim_to_know_topic'
     def run(self, dispatcher, tracker, domain):
-        topic = tracker.get_slot('topic') if tracker.get_slot('topic') else None
-        user = tracker.get_slot('user') if tracker.get_slot('user') else domain['user']
+        topic = tracker.get_slot('topic')
+        user = tracker.get_slot('user')
         if topic is None:
             dispatcher.utter_message('No topic given')
             return []
