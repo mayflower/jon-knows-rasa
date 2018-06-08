@@ -1,6 +1,7 @@
 intents:
     - who_knows_topic
     - claim_to_know_topic
+    - claim_to_know_topic_in_category
     - forgott_topic
     - topics_in_category
     - greet
@@ -12,14 +13,10 @@ entities:
     - score
 
 slots:
+    user:
+        type: text
     category:
-      type: categorical
-      values:
-        - "None"
-        - "Tools"
-        - "Technologien"
-        - "Plattformen"
-        - "Sprachen & Frameworks"
+      type: text
     topic:
         type: text
     score:
@@ -39,29 +36,11 @@ templates:
     utter_get_who_knows_topic:
         - Um welches Thema geht es?
     utter_get_who_knows_category:
-        - text: "In welche Kategorie würdest du es einsortieren?"
-          buttons:
-            - title: "Sprachen & Frameworks"
-              payload: "Sprachen & Frameworks"
-            - title: "Tools"
-              payload: "Tools"
-            - title: "Technologien"
-              payload: "Technologien"
-            - title: "Plattformen"
-              payload: "Plattformen"
+        -  "In welche Kategorie würdest du es einsortieren?"
     utter_get_claim_to_know_topic:
         - Um welches Thema geht es?
     utter_get_claim_to_know_category:
-        - text: "In welche Kategorie würdest du es einsortieren?"
-          buttons:
-            - title: "Sprachen & Frameworks"
-              payload: "Sprachen & Frameworks"
-            - title: "Tools"
-              payload: "Tools"
-            - title: "Technologien"
-              payload: "Technologien"
-            - title: "Plattformen"
-              payload: "Plattformen" 
+        -  "In welche Kategorie würdest du es einsortieren?"
 
 actions:
     - utter_greet
@@ -70,7 +49,7 @@ actions:
     - utter_get_who_knows_topic
     - utter_get_claim_to_know_category
     - utter_get_claim_to_know_topic
-    - actions.ActionWhoKnows
-    - actions.ActionClaimToKnow
+    - actions.ActionWhoKnowsTopic
+    - actions.ActionClaimToKnowTopic
     - actions.ActionIForgot
     - actions.ActionTopicsInCategory

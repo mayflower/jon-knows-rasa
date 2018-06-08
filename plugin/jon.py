@@ -7,6 +7,7 @@ from rasa_core.interpreter import RasaNLUInterpreter
 from rasa_core.agent import Agent
 
 class Jon(BotPlugin):
+    INTENTS_NEEDING_USER = ['claim_to_know_topic', 'who_kows_topic', 'forgott_topic']
     def activate(self):
         super().activate()
         self.agent = Agent.load('./models/dialogue', interpreter=RasaNLUInterpreter('./models/nlu/default/chat'))

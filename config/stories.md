@@ -3,17 +3,20 @@
     - utter_greet
 
 ## Story User says goodby
-* greet
+* goodbye
     - utter_goodbye
 
 ## Story User asks for something
 * who_knows_topic
-    - action_who_knows
+    - action_who_knows_topic
 
-## Story User claims to know something
+## Story User claims to know something in a specific category
+* claim_to_know_topic_in_category
+    - action_claim_to_know_topic
+
+## Story user claims to know a topic
 * claim_to_know_topic
-    - utter_get_who_knows_category
-    - action_claim_to_know
+    - action_claim_to_know_topic
 
 ## Story user asks for topics in category
 * topics_in_category
