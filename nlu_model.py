@@ -17,7 +17,7 @@ def train (data, config_file, model_dir):
     configuration = config.load(config_file)
     trainer = Trainer(configuration)
     trainer.train(training_data)
-    model_directory = trainer.persist(model_dir, fixed_model_name = 'chat')
+    trainer.persist(model_dir, fixed_model_name = 'chat')
 
 def run():
     interpreter = Interpreter.load('./models/nlu/default/chat')

@@ -9,7 +9,6 @@ from rasa_core.agent import Agent
 class Jon(BotPlugin):
     def activate(self):
         super().activate()
-        model_dir = './models/nlu/default/chat'
         self.agent = Agent.load('./models/dialogue', interpreter=RasaNLUInterpreter('./models/nlu/default/chat'))
 
     def callback_message(self, message):
@@ -20,5 +19,3 @@ class Jon(BotPlugin):
         for e in reply:
             if e['text'] is not None:
                 self.send(sendTo, e['text'])
-                return e['text']        
-        return 'No answer'

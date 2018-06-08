@@ -1,8 +1,10 @@
 intents:
-    - who_knows
-    - claim_to_know
-    - forgotten
+    - who_knows_topic
+    - claim_to_know_topic
+    - forgott_topic
+    - topics_in_category
     - greet
+    - goodbye
 
 entities:
     - category
@@ -11,29 +13,59 @@ entities:
 
 slots:
     category:
-        type: text
+      type: categorical
+      values:
+        - "None"
+        - "Tools"
+        - "Technologien"
+        - "Plattformen"
+        - "Sprachen & Frameworks"
     topic:
         type: text
     score:
-        type: text
+        type: categorical
+        values:
+            - 1
+            - 2
+            - 3
+            - 4
 
 templates:
     utter_greet:
         - Ich habe keine ahnung
         - Sein oder nicht sein - wer soll denn sowas wissen?
-    utter_get_who_knows_category:
-        - In welche Kategorie würdest du es einsortieren
-        - Wo gehört es dazu?
+    utter_goodbye:
+        - Bye
     utter_get_who_knows_topic:
         - Um welches Thema geht es?
-    utter_get_claim_to_know_category:
-        - In welche Kategorie würdest du es einsortieren
-        - Wo gehört es dazu?
+    utter_get_who_knows_category:
+        - text: "In welche Kategorie würdest du es einsortieren?"
+          buttons:
+            - title: "Sprachen & Frameworks"
+              payload: "Sprachen & Frameworks"
+            - title: "Tools"
+              payload: "Tools"
+            - title: "Technologien"
+              payload: "Technologien"
+            - title: "Plattformen"
+              payload: "Plattformen"
     utter_get_claim_to_know_topic:
         - Um welches Thema geht es?
+    utter_get_claim_to_know_category:
+        - text: "In welche Kategorie würdest du es einsortieren?"
+          buttons:
+            - title: "Sprachen & Frameworks"
+              payload: "Sprachen & Frameworks"
+            - title: "Tools"
+              payload: "Tools"
+            - title: "Technologien"
+              payload: "Technologien"
+            - title: "Plattformen"
+              payload: "Plattformen" 
 
 actions:
     - utter_greet
+    - utter_goodbye
     - utter_get_who_knows_category
     - utter_get_who_knows_topic
     - utter_get_claim_to_know_category
@@ -41,3 +73,4 @@ actions:
     - actions.ActionWhoKnows
     - actions.ActionClaimToKnow
     - actions.ActionIForgot
+    - actions.ActionTopicsInCategory

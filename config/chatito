@@ -6,22 +6,35 @@
     Hola
     What's up
 
+%[goodbye]
+    bye
+    tschüß
+    Auf Wiedersehen
+    Danke
+    Fuck
 
-%[who_knows]
+%[topics_in_category]
+    Was gehört denn alles zu @[category]
+    Welche Themen liegen in @[category]
+    Was ist alles in @[category]
+    Was versteckt sich hinter @[category]
+
+%[who_knows_topic]
     Wer kennt sich mit @[topic] aus?
     Wer weiß etwas über @[topic] gemacht?
     Welche Skills haben wir in @[category]?
     Warum sagst du nicht, dass du @[topic] kannst?
     Kannst mir jemand bei @[topic] helfen?
 
-%[claim_to_know]
+%[claim_to_know_topic]
     Ich habe mich mit @[topic] beschäftigt.
     Ich weiß etwas in @[topic]
     Mein Mayday-Projekt beschäftigt sich mit @[topic]
 
-%[forgotten]
+%[forgott_topic]
     Mir ist entfallen, worum es bei @[topic] gemacht
     Warum muss ich bei @[topic] ... tun?
+    Wie bediene ich @[topic]
 
 @[topic]
     Symfony
@@ -78,10 +91,10 @@
     Postgr
 
 @[category]
-    Languages & Frameworks
+    Sprachen & Frameworks
     Tools
-    Techniques
-    Platforms
+    Technologien
+    Plattformen
 
 @[score]
     1

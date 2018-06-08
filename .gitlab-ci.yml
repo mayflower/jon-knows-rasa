@@ -11,7 +11,6 @@ build_image:
     - docker info
     - cp config.py.dist config.py
     - docker build -terrbot ./
-    - pip install awscli
   script:
     - docker tag jon-knows-rasa electricmaxxx/jon-knows-rasa
     - registry.gitlab.com/electricmaxxx/jon-knows-rasa

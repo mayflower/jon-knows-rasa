@@ -1,26 +1,24 @@
-## Story greet 
+## Story User greets
 * greet
-   - utter_greet
-> check_asked_question
+    - utter_greet
 
-## Story who_knows
-* who_knows
-    - utter_get_who_knows_category
-* who_knows
-    - utter_get_who_knows_topic
-* who_knows
+## Story User says goodby
+* greet
+    - utter_goodbye
+
+## Story User asks for something
+* who_knows_topic
     - action_who_knows
-> check_asked_question
 
-## Story clain_to_know
-* claim_to_know
-    - utter_get_claim_to_know_category
-* claim_to_know
-    - utter_get_claim_to_know_topic
-* claim_to_know
+## Story User claims to know something
+* claim_to_know_topic
+    - utter_get_who_knows_category
     - action_claim_to_know
-> check_asked_question
 
-# Story forgotten
-* forgotten
+## Story user asks for topics in category
+* topics_in_category
+    - action_topics_in_category
+
+## Story user forgot skills
+* forgott_topic
     - action_forgotten

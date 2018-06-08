@@ -21,3 +21,9 @@ class ActionClaimToKnow(Action):
     def run(self, dispatcher, tracker, domain):
         dispatcher.utter_message('Action claim_to_know')
         return []
+class ActionTopicsInCategory(Action):
+    def name(self):
+        return 'action_topics_in_category'
+    def run(self, dispatcher, tracker, domain):
+        dispatcher.utter_message('Action action_topics_in_category')
+        return []
