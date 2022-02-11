@@ -67,7 +67,7 @@ networkx==2.1
 numpy==1.14.4
 packaging==17.1
 pathlib==1.0.1
-protobuf==3.5.2.post1
+protobuf==3.15.0
 pycparser==2.18
 Pygments==2.2.0
 pygments-markdown-lexer==0.1.0.dev39
