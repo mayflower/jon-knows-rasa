@@ -71,7 +71,7 @@ protobuf==3.5.2.post1
 pycparser==2.18
 Pygments==2.2.0
 pygments-markdown-lexer==0.1.0.dev39
-PyJWT==1.6.4
+PyJWT==2.4.0
 pykwalify==1.6.0
 pylint==1.9.2
 pyOpenSSL==18.0.0
